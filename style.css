@@ -60,7 +60,7 @@ div {
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
-	max-width:1050px;	
+	max-width:1050px;
 }
 
 #logo {
@@ -114,7 +114,7 @@ ul {
 	align-items:baseline;
 	border-radius: 10px;
 	list-style-type: none; /*Remove Bullets*/
-	padding: 0;	
+	padding: 0;
 }
 
 li {
@@ -150,8 +150,20 @@ li {
 		flex-flow: column;
 		align-items:center;
     }
-    
+
 	li {
 		font-size: 2em;
 	}
+}
+
+.hightlight_text {
+    background-color: red;
+}
+
+.h2_color {
+    background-color: lightblue;
+}
+
+.h2_font_size {
+    font-size: 2em;
 }
