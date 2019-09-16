@@ -47,6 +47,7 @@ div{
 
 .card_para{
 	flex: 1 0 auto;
+    display: none;
 }
 
 #container{
@@ -71,6 +72,10 @@ div{
 	margin: 10px;
 	padding: 20px;
 	background-color: #fff;
+}
+
+.highlight {
+    background-color: pink;
 }
 
 #my_footer{
