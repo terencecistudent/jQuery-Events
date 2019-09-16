@@ -26,13 +26,4 @@ $(document).ready(function() {
    $("myButton").removeClass("blueBox").addClass("border");
    $("p").css("color", "blue").slideUp(2000).slideDown(2000);
    $("a").attr("href", "http://www.example.com");
-
-
-   $(".stream-nav").on("click", function() {
-       var allStreamsCardsSelector = ".card";
-       var allStreamCardsSelector = "." + this.id + "-card";
-
-       $("allStreamsCardsSelector").removeClass("card-highlight");
-       $("allStreamCardsSelector").addClass("card-highlight");
-   });
 });
